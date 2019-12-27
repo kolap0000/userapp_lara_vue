@@ -186,8 +186,8 @@ export default{
 			})
 			  .then(function (response) {
 			    console.log(response);
-			  	location.reload();
 			  })
+			  this.getStudents();
 		},
 		savedata(){
 			let up_ind = $('#up_ind').val();
@@ -202,8 +202,10 @@ export default{
 				  })
 				  .then(function (response) {
 				    console.log(response);
-				  	location.reload();
+				  	
 				  })
+				  $('#addNew').modal('hide');
+			     this.getStudents();
 			}
 			else{
 				axios.post('/api/student', {
@@ -213,8 +215,10 @@ export default{
 				  })
 				  .then(function (response) {
 				    console.log(response);
-				  	location.reload();
+				  	
 				  })
+				  $('#addNew').modal('hide');
+			     this.getStudents();
 			}
 		}
 		,
