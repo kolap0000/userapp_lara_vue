@@ -2044,6 +2044,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -38712,11 +38713,30 @@ var render = function() {
                     },
                     [
                       _c("input", {
-                        attrs: { type: "text", name: "", id: "up_ind" }
+                        attrs: {
+                          type: "text",
+                          name: "",
+                          id: "up_ind",
+                          hidden: "hidden"
+                        }
                       }),
                       _vm._v(" "),
                       _c("input", {
-                        attrs: { type: "text", name: "", id: "id_ind" }
+                        attrs: {
+                          type: "text",
+                          name: "",
+                          id: "id_ind",
+                          hidden: "hidden"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("input", {
+                        attrs: {
+                          type: "text",
+                          name: "",
+                          id: "id_ind",
+                          hidden: "hidden"
+                        }
                       }),
                       _vm._v(" "),
                       _c("input", {
@@ -51300,8 +51320,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Keneth John\Desktop\blog3\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Keneth John\Desktop\blog3\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Keneth John\Desktop\userapp_lara_vue\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Keneth John\Desktop\userapp_lara_vue\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

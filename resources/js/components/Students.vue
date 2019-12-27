@@ -77,8 +77,9 @@
 			      </div>
 			      <div class="modal-body">
 			      	<form method="post" id="addNew_form" ref="myForm">
-			      		<input type="text" name="" id="up_ind">
-			      		<input type="text" name="" id="id_ind">
+			      		<input type="text" name="" id="up_ind"  hidden="hidden">
+			      		<input type="text" name="" id="id_ind" hidden="hidden">
+			      		<input type="text" name="" id="id_ind"  hidden="hidden">
 
 				       	<input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name"><br>
 				       	<input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name" ><br>
