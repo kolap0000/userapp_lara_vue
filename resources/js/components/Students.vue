@@ -111,17 +111,17 @@ export default{
         this.getStudents();
     },
 	data(){
-		let sortOrders = [];
-		let columns = [
-			{width: '20%', label: '', name: '' },
-			{width: '20%', label: 'ID', name: 'id' },
-			{width: '25%', label: 'Firtname', name: 'firstname' },
-            {width: '25%', label: 'Lastname', name: 'lastname'},
-            {width: '50%', label: 'Address', name: 'address'}
-		];
-		columns.forEach((column) => {
-           sortOrders[column.name] = -1;
-        });
+			let sortOrders = [];
+			let columns = [
+				{width: '20%', label: '', name: '' },
+				{width: '20%', label: 'ID', name: 'id' },
+				{width: '25%', label: 'Firtname', name: 'firstname' },
+	            {width: '25%', label: 'Lastname', name: 'lastname'},
+	            {width: '50%', label: 'Address', name: 'address'}
+			];
+			columns.forEach((column) => {
+	           sortOrders[column.name] = -1;
+	        });
 		return {
 			students: [],
             columns: columns,

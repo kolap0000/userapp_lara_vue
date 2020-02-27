@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 //Route::get('/', 'StudentController@index');
+
+Route::get('/x',function(){
+	$user = user();
+
+	$user->notify(new NewUser(user::findOrAll(1)));
+});
